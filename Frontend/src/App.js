@@ -248,12 +248,14 @@
 // export default App;
 
 import React from 'react';
-import Demo from './Demo';
+import AllStudentsData from './AllStudentsData';
+
 
 const App = () => {
   return (
     <>
-    <Demo/>
+    <AllStudentsData/>
+    {/* <Demo2 /> */}
     </>
   )
 }

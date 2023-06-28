@@ -1,6 +1,11 @@
+/* body {
+  overflow-y  : hidden;
+  overflow-x: hidden;
+} */
 .pagination {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 20px;
   list-style: none;
 }
@@ -28,9 +33,10 @@
 }
 
 .table-container {
-  max-height: 600px; /* Adjust the desired height */
-  overflow-y: scroll;
+  max-height: 650px; /* Adjust the desired height */
   position: sticky;
+  
+
   
 }
 .fixed-header {
@@ -44,4 +50,51 @@
   font-size: 20px;
   color: #000;
   margin-left: 10px;
+}
+th {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+/* .container{           ab kro tm yr 5-10 min do me thora research kro pls degin search krta hu ok kese thik kre ise
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+
+/* .col {
+  flex: 1;
+  margin-right: 10px;
+  margin-bottom: 10px;
+} */
+
+
+/* .header-name{
+  position: sticky;
+  top:0;
+  padding: 2rem;
+  margin: 0 auto;
+}
+.top-table{
+  position: sticky;
+  top:200px;
+
+} */
+
+.card-container {
+  height: 400px; /* Adjust the height as per your requirement */
+  overflow: auto;
 }
